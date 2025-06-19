@@ -3,7 +3,7 @@ import mysql.connector
 
 app = Flask(__name__)
 
-# Connect to XAMPP MySQL (adjust credentials as needed)
+
 db = mysql.connector.connect(
     host="localhost",
     user="root",
